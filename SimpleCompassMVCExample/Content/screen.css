@@ -66,3 +66,42 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 13, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, ../sass/screen.scss */
+.grid {
+  margin: 0 auto 20px;
+  max-width: 1400px;
+  *zoom: 1;
+}
+/* line 38, ../../../../../AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 21, ../sass/screen.scss */
+.grid .col {
+  float: left;
+  padding: 0 24px;
+}
+/* line 24, ../sass/screen.scss */
+.grid .col.full {
+  width: 100%;
+}
+/* line 27, ../sass/screen.scss */
+.grid .col.half {
+  width: 50%;
+}
+
+/* line 33, ../sass/screen.scss */
+h1, h2, h3 {
+  padding: 20px;
+  background-color: #eee;
+}

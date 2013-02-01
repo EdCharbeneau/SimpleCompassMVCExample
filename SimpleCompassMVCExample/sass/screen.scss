@@ -36,6 +36,10 @@ $gutter: 24px;
         &.two-thirds {
             width: 66.66%;
         }
+		// nested grid
+		.grid {
+			margin: 0 (-($gutter));
+		}
     }
 }
 

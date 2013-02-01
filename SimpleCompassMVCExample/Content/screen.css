@@ -111,8 +111,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .grid .col.two-thirds {
   width: 66.66%;
 }
+/* line 40, ../sass/screen.scss */
+.grid .col .grid {
+  margin: 0 -24px;
+}
 
-/* line 42, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 h1, h2, h3 {
   padding: 20px;
   background-color: #eee;
